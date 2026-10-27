@@ -1,0 +1,137 @@
+/* ზოგადი სტილები */
+body {
+    margin: 0;
+    font-family: cursive;
+}
+
+/* ჰედერის სტილები */
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(165, 42, 42, 0.347);
+    padding: 20px;
+}
+
+.logo {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+
+/* საერთო სტილები ლინკებისა და ღილაკებისთვის */
+.nav-link,
+.btn {
+    margin: 0 20px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+}
+
+/* ღილაკების ინდივიდუალური მახასიათებლები */
+.btn {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+/* ღილაკების ფერები */
+.loginBtn {
+    background-color: rgb(84, 122, 183);
+}
+
+.logoutBtn {
+    background-color: brown;
+}
+
+/* პირველი სექცია */
+.startingSection {
+    height: 700px;
+    background-image: url('https://blog.clr-berlin.com/wp-content/uploads/2022/06/1.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainDescription {
+    width: 500px;
+    background-color: #ffc0cbd3;
+    padding: 20px;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutContent {
+    text-align: center;
+}
+
+.contactUs {
+    background-color: rgb(243, 79, 106);
+}
+
+/* მეორე სექცია (სურათების გალერეა) */
+.images {
+    padding: 100px;
+    background-color: #ffc0cb9a;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.catalogImg {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+
+/* Log In ფორმის სტილები */
+.formDiv {
+    width: 300px;
+    position: absolute;
+    top: 15%;
+    left: 45%;
+    padding: 30px;
+    background-color: antiquewhite;
+    border-radius: 14px;
+    display: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    border-radius: 14px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.emailLogin {
+    background-color: rgba(51, 51, 175, 0.651);
+    margin: 10px 0;
+}
+
+/* ფუტერი (Footer) */
+footer {
+    background-color: rgba(0, 0, 0, 0.61);
+    padding: 20px;
+    color: #c0b5b5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.aboutUs {
+    width: 500px;
+}
+
+.darkMode {
+    background-color: #c0b5b5;
+    color: #000;
+}
